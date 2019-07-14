@@ -11,8 +11,6 @@ import java.util.List;
 @RequestMapping("/api")
 public class UserController {
 
-    // standard constructors
-
     @Autowired
     private UserRepository userRepository;
 
